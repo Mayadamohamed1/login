@@ -21,7 +21,7 @@ function login(){
     if(checkUserValid(userData)==true){
 alert("loggedin");
 valid.classList.replace("d-block","d-none");
-    window.location.href="../../home.html";
+    window.location.href="../../index.html";
     }else{
        valid.classList.replace("d-none","d-block");
     }
